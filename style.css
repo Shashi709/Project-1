@@ -233,7 +233,7 @@
     }
 }
 
-@media screen and (max-width:360px)
+@media screen and (max-width:375px)
 {
     .hero-image img{
         margin:0px;
