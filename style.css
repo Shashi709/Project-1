@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     z-index: 20;
+    background-color: #ffffff;
 }
 .navbar-container{
     margin: 0px auto;
@@ -112,4 +113,157 @@
     font-family: 15px;
     font-weight: 800px;
     margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1042px) {
+    
+    .navbar-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .list{
+        margin: 20px 0px 0px-20px;
+    }
+    .button-group{
+        position: absolute;
+        right: 5%;
+    }
+    .hero-container
+    {
+        width: 100%;
+    }
+    .hero-description{
+        width: 90%;
+    }
+    .hero-heading{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+  }
+
+
+  
+@media screen and (max-width: 860px) {
+    
+    .navbar-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .list{
+        margin: 20px 0px 0px-20px;
+    }
+    .button-group{
+        position: absolute;
+        right: 5%;
+    }
+    .hero-container
+    {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .hero-description{
+        width: 90%;
+    }
+    .hero-heading{
+        margin-top: 10px;
+        font-size: 35px;
+    }
+    .square{
+        display: none;
+    
+    }
+    .hero-image{
+        position: relative;
+    }
+    .hero-image img{
+        height: 500px;
+        margin-left: -30%;
+    }
+    .hero-container-right
+    {
+        position: relative;
+    }
+    
+  }
+
+  .three-line{
+    position: absolute;
+    top: 22%;
+    right: 2%;
+    display: none;
+}
+
+@media screen and (max-width: 735px){
+    .list{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(175, 229, 248);
+        top: 20%;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        padding-top: 5px;
+    }
+    .list-item{
+        padding: 2px 20px;
+    }
+    .list-item:hover{
+        border: 3px solid #000000;
+           border-radius: 10px;
+           transition: 0.5s;
+    }
+    .button-group{
+        position: absolute;
+        right: 16%;
+      }
+      .button-group{
+        right: 10%;
+      }
+    
+    .three-line{
+        display: inline;
+    }
+    #check:checked ~ .list{
+        left: 0%;
+        transition: 0.6s;
+    }
+}
+
+@media screen and (max-width:360px)
+{
+    .hero-image img{
+        margin:0px;
+        position: static;
+        height: 70%;
+        width: 80%;
+        background-color: azure;
+        margin-left: 10%;
+    }
+    .btn{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .contact-heading{
+        margin-top: 10px;
+      }
+      .hero-heading{
+        font-size: 25px;
+      }
+      .hero-description{
+        margin-top: 5px;
+      }
+      .button-group{
+        top: 65;
+        right: 20%;
+      }
+      .two-icon img {
+        width: 50px;
+        height: 20x;
+      }
+
 }
