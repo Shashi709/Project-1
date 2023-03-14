@@ -20,7 +20,7 @@
 
 ## Link of my project .
 
-- [Live Link....](project1-shashiraj.netlify.app)
+- [Live Link....](https://project1-shashi.netlify.app/)
 
 ## Screenshot of my web page.
  ![Image](./assest//my-page.jpg)
